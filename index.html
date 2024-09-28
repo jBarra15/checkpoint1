@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Tempo de Reunião</title>
+    <script src="./cp1.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(152, 170, 218);j
+            text-align: center;
+            padding: 20px;
+        }
+        input, button {
+            padding: 10px;
+            margin: 5px;
+            font-size: 16px;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CHECKPOINT 1</h1>
+    <P>Nome: Joel Barra</P>
+    <p>RM: 560796</p>
+    <h2>Calculadora de Tempo</h2>
+
+    <label>Horário de Início:</label>
+    <input type="time" id="start-time"><br>
+
+    <label>Horário de Fim:</label>
+    <input type="time" id="end-time"><br>
+
+    <button onclick="calcularTempo()">Calcular</button>
+
+    <div id="resultado" class="result"></div>
+
+    
+    <script src="../js/script.js"></script>
+
+</body>
+</html>
